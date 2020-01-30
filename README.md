@@ -105,6 +105,9 @@ Or build automatically when a template changes:
 ```
 npx eleventy --watch
 ```
+Or serve locally:
+
+npx eleventy --serve
 
 Or in debug mode:
 ```
