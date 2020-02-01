@@ -7,11 +7,7 @@ tags: nav
 ---
 # David Rhoden: Painting
 
-[click for\
-**artwork\
-for sale**](https://thisismyhappening.com/)
-
-Most of my paintings are done in sign painter's enamel on shaped plywood. Many of these are now in private collections, but I do have paintings for sale on my online store,[thisismyhappening.com.](https://thisismyhappening.com/)
+Most of my paintings are done in sign painter's enamel on shaped plywood. I do have paintings for sale on my online store, [thisismyhappening.com.](https://thisismyhappening.com/)
 
 [![Keys, a painting by David Rhoden](https://davidrhoden.com/assets/images/paintings/_threeHundredTwentyPxSquare/keysJune2019-768x509.jpg)](https://davidrhoden.com/painting/keys)
 
