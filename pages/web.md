@@ -16,8 +16,6 @@ On the front end, I have extensive experience with CSS/Sass, Javascript and jQue
 
 A Craft CMS site for a New Orleans-based singer-songwriter and his band. A fun feature of this site: it automagically creates a poster for every upcoming show, complete with random paper colors.
 
-[Continue reading](https://davidrhoden.com/web/luke-spurr-allen)
-
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/lukespurrallen.jpg)
 
 - - -
@@ -26,7 +24,6 @@ A Craft CMS site for a New Orleans-based singer-songwriter and his band. A fun f
 
 A simple site done with[Craft CMS](https://craftcms.com/)to publicize a gallery opening.
 
-[Continue reading](https://davidrhoden.com/web/gina-phillips-crow-valley)
 
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/ginasite.jpg)
 
@@ -41,9 +38,6 @@ His other books are good too.[Go to the site](http://mikeedison.com/)to find out
 I did all the design and development on this site. The site is built with Craft CMS.
 
 
-
-[Continue reading](https://davidrhoden.com/web/mike-edison)
-
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/edison.jpg)
 
 - - -
@@ -52,8 +46,6 @@ I did all the design and development on this site. The site is built with Craft 
 
 A CraftCMS website to display an artist's works for sale. (In this case the artist is me.)
 
-[Continue reading](https://davidrhoden.com/web/this-is-my-happening)
-
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/thisismyhappening.jpg)
 
 - - -
@@ -61,8 +53,6 @@ A CraftCMS website to display an artist's works for sale. (In this case the arti
 ## [Bajibot website](https://davidrhoden.com/web/bajibot-website)
 
 Nearly everything on the page is animated in some way. Really, it's too much. The site uses AJAX to load the case studies. I had to build custom scrollers for the case studies that were longer than the space allotted. Also, the video reel was done as HTML5 video with custom controls and a Flash fallback. It's all built on top of Wordpress, believe it or not.
-
-[Continue reading](https://davidrhoden.com/web/bajibot-website)
 
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/BAJIBOT.jpg)
 
@@ -74,8 +64,6 @@ I did all the design and coding for this responsive website for a major-label re
 
 It's a custom theme built on top of a Wordpress back end.
 
-[Continue reading](https://davidrhoden.com/web/hurray-for-the-riff-raff)
-
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/HFTRR.jpg)
 
 - - -
@@ -86,8 +74,6 @@ I was the sole developer on this site for an Austin-based advertising agency.
 
 We were looking for a way to urge employees to get timesheets in more promptly without taking a Big-Brotherish approach. We decided on gentle public shaming.
 
-[Continue reading](https://davidrhoden.com/web/dbstl-timesheet-shamer)
-
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/DBSTL.jpg)
 
 - - -
@@ -95,8 +81,6 @@ We were looking for a way to urge employees to get timesheets in more promptly w
 ## [AT&T: The Innovators](https://davidrhoden.com/web/at-t-the-innovators)
 
 When I asked how the hover should be implemented on mobile devices, I discovered there was no plan for mobile. The designer and art director assumed the site would be done in Flash.
-
-[Continue reading](https://davidrhoden.com/web/at-t-the-innovators)
 
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/INNOVATORS.jpg)
 
@@ -106,8 +90,6 @@ When I asked how the hover should be implemented on mobile devices, I discovered
 
 I did the front-end development for this funny-named New York City-based startup providing couponing services for independent grocers and producers.
 
-[Continue reading](https://davidrhoden.com/web/eatucator)
-
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/EATUCATOR.jpg)
 
 - - -
@@ -116,7 +98,6 @@ I did the front-end development for this funny-named New York City-based startup
 
 As a front-end developer with iSeatz, I worked closely with the New York City design firm whose design we were implementing on the American Express travel site. I also worked to make our front-end code consistent across hotel, car and air purchases.
 
-[Continue reading](https://davidrhoden.com/web/american-express-travel)
 
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/AMEX.jpg)
 
@@ -128,8 +109,6 @@ I also worked for about a year at an all-digital New York City advertising agenc
 
 I did lots of CSS and jQuery on this unique interface.
 
-[Continue reading](https://davidrhoden.com/web/crown-royal)
-
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/CROWNROYAL.jpg)
 
 - - -
@@ -137,8 +116,6 @@ I did lots of CSS and jQuery on this unique interface.
 ## [Red Bull Manny Mania](https://davidrhoden.com/web/red-bull-manny-mania)
 
 A "manny" is some kind of skatingboard trick you can do without a ramp or something. This was a site that let you vote on who did the best ones. I did the coding and connected up the database to count the votes. There was some IP tracking to sorta stop people from stuffing the box. There was a lot of video on this site too.
-
-[Continue reading](https://davidrhoden.com/web/red-bull-manny-mania)
 
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/redbullmannymania.jpg)
 
@@ -150,8 +127,6 @@ I spent about a year working for The Frisky, which was a Turner Broadcasting pro
 
 The site was aimed at 18-39 year old women. Every once in a while they would do a story that required a photograph of a generic male, for which I was sometimes pressed into action, so, technically, I am a male model.
 
-[Continue reading](https://davidrhoden.com/web/the-frisky)
-
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/FRISKY.jpg)
 
 - - -
@@ -160,8 +135,6 @@ The site was aimed at 18-39 year old women. Every once in a while they would do 
 
 I was one of two front-end developers on this early entry in the fast food pre-order game, working for a company called GoMobo (now named Olo), competing mostly with Seamless Web. I applied "skins" to our white-label ordering site, and set up Photoshop files to create new skins quickly for prospective clients.
 
-[Continue reading](https://davidrhoden.com/web/subway-now)
-
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/SUBWAYNOW.jpg)
 
 - - -
@@ -169,8 +142,6 @@ I was one of two front-end developers on this early entry in the fast food pre-o
 ## [Amber Sexton Photography](https://davidrhoden.com/web/amber-sexton-photography)
 
 A custom weblog based on Expression Engine and a custom CMS for photos for this Brooklyn-based photographer. The site employs David DeSandro's popular Masonry plug-in for the home page's responsive photo display.
-
-[Continue reading](https://davidrhoden.com/web/amber-sexton-photography)
 
 ![](https://davidrhoden.com/assets/images/web/_sixHundredFortyPxWide/ambersexton.jpg)
 
