@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'ShadowGrotesque';
-  src: url('shadowgrotesque-webfont.eot'); /* IE9 Compat Modes */
-  src: url('shadowgrotesque-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('shadowgrotesque-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('shadowgrotesque-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('shadowgrotesque-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('../webfonts/ShadowGrotesque/shadowgrotesque-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/ShadowGrotesque/shadowgrotesque-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../webfonts/ShadowGrotesque/shadowgrotesque-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../webfonts/ShadowGrotesque/shadowgrotesque-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../webfonts/ShadowGrotesque/shadowgrotesque-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 :root {
 	--magenta: magenta;
