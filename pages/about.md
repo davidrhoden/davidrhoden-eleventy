@@ -1,5 +1,5 @@
 ---
-title: About us
+title: About me
 date: 2017-01-01T00:00:00.000Z
 permalink: /about/index.html
 navtitle: About
@@ -54,6 +54,6 @@ David Rhoden with All-Night Movers (Slade Nash), house party, New Orleans, 2003
 
 David Rhoden with Stacks (Steve Walkup, Trey Ledford, Doug DeRienzo), New Orleans rooftop, 2000s
 
-![David Rhoden, 850 Third Avenue, New York City, 1992](https://davidrhoden.com/assets/images/photographs/_sixHundredFortyPxWide/drrinfrontof850.jpg)
+![David Rhoden, 850 Third Avenue, New York City, 1992](/static/img/drrinfrontof850.jpg)
 
 David Rhoden, 850 Third Avenue, New York City, 1992
