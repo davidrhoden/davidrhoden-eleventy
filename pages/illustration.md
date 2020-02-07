@@ -1,5 +1,5 @@
 ---
-title: David Rhoden: Illustration
+title: Illustration
 date: 2020-02-01T13:23:56.818Z
 permalink: illustration/index.html
 navtitle: Illustration
