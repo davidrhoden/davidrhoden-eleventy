@@ -51,6 +51,13 @@ a[href]:not(:hover) {
 	text-decoration: none;
 }
 
+a.mainlink[href],
+a.mainlink[href]:visited {
+	color: black;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
 header,
 main,
 footer {

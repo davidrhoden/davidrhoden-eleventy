@@ -1,11 +1,10 @@
 ---
-title: Illustration
+title: David Rhoden: Illustration
 date: 2020-02-01T13:23:56.818Z
 permalink: illustration/index.html
 navtitle: Illustration
 tags: nav
 ---
-# David Rhoden: Illustration
 
 My illustration work has two major styles. When I first started doing illustration work for clients, I worked in watercolor over pencil. I love the way it looks, but I stopped doing it because you can't make any corrections at all. If the client wants a change, or if the illustrator wants a change, you have to start over. It's a deadline thing.
 
