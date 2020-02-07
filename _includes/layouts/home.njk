@@ -3,7 +3,7 @@ layout: layouts/base.njk
 section: home
 ---
 
-{# layoutContent | safe #}
+<!-- {{ layoutContent | safe }} -->
 
 {% block header %}
 This is the default content
@@ -11,7 +11,8 @@ This is the default content
 
 <div class="flex space-around align-items-center">
 <section class="left">
-{% block left %}{% endblock %}
+{% block left %}
+{% endblock %}
 </section>
 
 <section class="right">
