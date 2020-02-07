@@ -4,6 +4,7 @@ const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 
 module.exports = function(eleventyConfig) {
+
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
   // Date formatting (human readable)
@@ -57,6 +58,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("static/webfonts/ShadowGrotesque");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/");
+  eleventyConfig.addPassthroughCopy("css");
 
 
   /* Markdown Plugins */
