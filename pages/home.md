@@ -9,3 +9,13 @@ tags:
 ![frazzled looking guy saying aah, a drawing by David Rhoden](/static/img/aah-guy.jpg "frazzled looking guy saying aah, a drawing by David Rhoden")
 
 I feel like I just moved to a new apartment in an unfamiliar town. I moved my site to a static site generator to be deployed on [Netlify](https://www.netlify.com).
+
+
+
+{% block left %}
+I feel like I just moved to a new apartment in an unfamiliar town. I moved my site to a static site generator to be deployed on [Netlify](https://www.netlify.com).
+{% endblock %}
+
+{% block right %}
+![frazzled looking guy saying aah, a drawing by David Rhoden](/static/img/aah-guy.jpg "frazzled looking guy saying aah, a drawing by David Rhoden")
+{% endblock %}

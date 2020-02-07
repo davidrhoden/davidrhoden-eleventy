@@ -194,4 +194,16 @@ button {
 	:root {
 		font-size: 1.1rem;
 	}
+
+	.flex {
+		display: flex;
+	}
+
+	.align-items-center {
+		align-items: center;
+	}
+
+	.space-around { 
+		justify-content: space-around; 
+	}
 }
