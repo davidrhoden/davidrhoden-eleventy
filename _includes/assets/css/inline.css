@@ -23,9 +23,6 @@ body {
 	background-color: var(--white);
 }
 
-em {
-	font-family: "ShadowGrotesque", sans-serif, "Avenir";
-}
 main {
 	max-width: 37.5em;
 }
@@ -54,6 +51,7 @@ a[href]:not(:hover) {
 a.mainlink[href],
 a.mainlink[href]:visited {
 	color: black;
+	font-family: "ShadowGrotesque", sans-serif, "Avenir";
 	text-decoration: none;
 	transition: color 0.3s ease;
 }
