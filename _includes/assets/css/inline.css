@@ -57,6 +57,20 @@ a.mainlink[href]:visited {
 	transition: color 0.3s ease;
 }
 
+a.mainlink[href]:hover,
+a.mainlink[href]:active {
+	color: var(--orangered);
+}
+
+nav ul li a.mainlink[href],
+a.mainlink[href]:visited {
+	color: black;
+	font-family: "ShadowGrotesque", sans-serif, "Avenir";
+	font-size: 2em;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
 header,
 main,
 footer {
@@ -196,7 +210,7 @@ button {
 	cursor: pointer;
 }
 
-footer.small {
+footer small {
 	font-size: .7em;
 	text-transform: uppercase;
 }

@@ -7,8 +7,6 @@ navtitle: Work with me
 tags:
   - nav
 ---
-I build websites as a full-time job, but I also build sites for clients on a freelance basis. you can see examples and click links to some of my prior work on my [portfolio page](/web.md).
+I build websites as a full-time job, but I also build sites for clients on a freelance basis. You can see examples and click links to some of my prior work on my [portfolio page](/web.md).
 
-If you're shopping for a website for your business or project, please let me know by filling out the form below. If we're a match in terms of budget and interestingness of the project, we can talk.
-
-
+If you're shopping for a website for your business or project, please let me know by filling out the form below. If we're a match in terms of budget and interestingness of the project, let's talk.

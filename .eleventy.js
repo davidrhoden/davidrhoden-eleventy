@@ -58,8 +58,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("static/webfonts/ShadowGrotesque");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/");
-  eleventyConfig.addPassthroughCopy("css");
-
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
