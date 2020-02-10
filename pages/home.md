@@ -1,6 +1,6 @@
 ---
 title: This is davidrhoden.com.
-date: 2016-01-01T00:00:00.000Z
+date: 2020-02-10T12:00:00.000Z
 permalink: /
 navtitle: Home
 tags:
