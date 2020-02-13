@@ -3,8 +3,7 @@ title: Privacy Policy
 date: 2020-02-11T00:00:00.000Z
 permalink: /privacy/index.html
 navtitle: Privacy Policy
-tags:
-  - nav-secondary
+tags: nav-secondary
 ---
 # David Rhoden: Privacy Policy
 
