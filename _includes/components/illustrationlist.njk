@@ -1,0 +1,26 @@
+<section>
+	{% for illustration in illustrationlist | reverse %}
+		<article{% if illustration.url == url %} data-current="current item"{% endif %}>
+			<h3>
+				<a href="{{ illustration.url | url }}">
+					{% if illustration.data.title %}
+						{{ illustration.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			<img src="{{ illustration.data.image }}" alt="{{ illustration.data.title }}: Illustration by David Rhoden" />
+			{% if illustration.data.tags %}
+				<p>
+					{% for tag in illustration.data.tags %}
+		  			{%- if tag != "illustration" -%}
+		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+		  			{%- endif -%}
+					{% endfor %}
+				</p>
+			{% endif %}
+		</article>
+	{% endfor %}
+</section>

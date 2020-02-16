@@ -1,0 +1,26 @@
+<section>
+	{% for painting in paintinglist | reverse %}
+		<article{% if painting.url == url %} data-current="current item"{% endif %}>
+			<h3>
+				<a href="{{ painting.url | url }}">
+					{% if painting.data.title %}
+						{{ painting.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			<img src="{{ painting.data.image }}" alt="{{ painting.data.title }}: painting by David Rhoden" />
+			{% if painting.data.tags %}
+				<p>
+					{% for tag in painting.data.tags %}
+		  			{%- if tag != "painting" -%}
+		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+		  			{%- endif -%}
+					{% endfor %}
+				</p>
+			{% endif %}
+		</article>
+	{% endfor %}
+</section>
