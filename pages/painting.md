@@ -1,9 +1,10 @@
 ---
 title: Painting
-date: 2020-02-01T13:32:41.848Z
-permalink: painting/index.html
+layout: layouts/painting.njk
+tags:
+  - nav
 navtitle: Painting
-layout: layouts/page.njk
+date: 2020-02-16
+permalink: /painting/index.html
 ---
 
-Most of my paintings are done in sign painter's enamel on shaped plywood. I do have paintings for sale on my online store, [thisismyhappening.com.](https://thisismyhappening.com/)

@@ -1,9 +1,9 @@
 ---
-title: {{ illustration.name  }}
-date: 2020-02-13T15:46:31.523Z
-permalink: 'illustrations/'
+layout: layouts/illustration.njk
+title: Illustration
+tags:
+  - nav
 navtitle: Illustration
-layout: layouts/page.njk
+date: 2020-02-16
+permalink: /illustration/index.html
 ---
-
-{{ illustration.name }} is {{ illustration.image }} years old

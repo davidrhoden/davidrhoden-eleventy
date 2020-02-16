@@ -6,6 +6,8 @@ summary: >-
   reading, so, I guess, here's a blog post to commemorate that momentous
   decision.
 tags:
-  - illustration
 ---
+  I decided to let go of five years of blog posts that not many people were
+  reading, so, I guess, here's a blog post to commemorate that momentous
+  decision.
 ![Whatcha think? I dunno. Illustration by David Rhoden.](/static/img/whatchathink200126.jpg "Whatcha think? I dunno. Illustration by David Rhoden.")
