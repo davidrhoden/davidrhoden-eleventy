@@ -13,10 +13,10 @@
 				{{ etc.data.body }}
 				<p>
 					{% for tag in etc.data.tags %}
-		  			{%- if tag != "etc" -%}
-		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
-		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-		  			{%- endif -%}
+			  			{% if tag != "etc" %}
+			  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+			  				<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+			  			{% endif %}
 					{% endfor %}
 				</p>
 			{% endif %}
