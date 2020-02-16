@@ -1,0 +1,26 @@
+<section>
+	{% for web in weblist | reverse %}
+		<article{% if web.url == url %} data-current="current item"{% endif %}>
+			<h3>
+				<a href="{{ web.url | url }}">
+					{% if web.data.title %}
+						{{ web.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			<img src="{{ web.data.image }}" alt="{{ web.data.title }}: web development by David Rhoden" />
+			{% if web.data.tags %}
+				<p>
+					{% for tag in web.data.tags %}
+		  			{%- if tag != "web" -%}
+		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+		  			{%- endif -%}
+					{% endfor %}
+				</p>
+			{% endif %}
+		</article>
+	{% endfor %}
+</section>
