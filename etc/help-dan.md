@@ -1,7 +1,7 @@
 ---
 title: Help Dan!
 date: 2020-02-16T15:21:20.473Z
-tags: web
+tags: etc
 ---
 Help DAN find a home! Look how homeless he looks! Can't you just hear him muttering unintelligibly? Won't you help him find a home? Here's how YOU can help: Take this picture of Dan and paste it into situations where he might feel at home!
 
