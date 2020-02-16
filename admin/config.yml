@@ -33,11 +33,11 @@ collections:
       - { label: "Navigation Title", name: "navtitle", widget: "string" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "nav" }
       - { label: "Body", name: "body", widget: "markdown" }
- # Our pages e.g. About
+ # Illustration
   - name: "illustrations"
     label: "Illustration"
     folder: "illustrations"
-    create: true # Change to true to allow editors to create new pages
+    create: true 
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -46,3 +46,34 @@ collections:
       - { label: "Navigation Title", name: "navtitle", widget: "string" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "illustration" }
       - { label: "Image", name: "image", widget: "image" }
+
+  - name: "paintings"
+    label: "Painting"
+    folder: "paintings"
+    create: true # Change to true to allow editors to create new pages
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      # - { label: "Permalink", name: "permalink", widget: "string" }
+      # - { label: "Navigation Title", name: "navtitle", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "painting" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Sold?", name: "sold", widget: "boolean" }
+      - { label: "Price", name: "price", widget: "number" }
+ # Animation
+  - name: "animations"
+    label: "Animation"
+    folder: "animations"
+    create: true 
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      # - { label: "Permalink", name: "permalink", widget: "string" }
+      # - { label: "Navigation Title", name: "navtitle", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "illustration" }
+      - { label: "Image", name: "image", widget: "image" }
+
+
+
