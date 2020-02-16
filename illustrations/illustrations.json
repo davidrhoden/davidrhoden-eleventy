@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/illustration.njk",
+  "permalink": "/illustration/{{ name | slug }}/index.html",
+  "tags":"illustration"
+}

@@ -1,4 +1,5 @@
 {
   "layout": "layouts/painting.njk",
-  "permalink": "/painting/{{ name | slug }}/"
+  "permalink": "/painting/{{ name | slug }}/index.html",
+  "tags": "painting"
 }

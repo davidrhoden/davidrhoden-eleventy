@@ -7,3 +7,4 @@ sold: true
 price: 240
 ---
 
+test content

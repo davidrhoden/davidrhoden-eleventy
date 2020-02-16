@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/animation.njk",
+  "permalink": "/animation/{{ name | slug }}/index.html",
+  "tags":"animation"
+}
