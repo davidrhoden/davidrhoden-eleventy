@@ -36,7 +36,7 @@ collections:
  # Illustration
   - name: "illustrations"
     label: "Illustration"
-    folder: "illustration"
+    folder: "illustrations"
     create: true 
     slug: "{{slug}}"
     fields:
