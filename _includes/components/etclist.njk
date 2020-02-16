@@ -1,0 +1,25 @@
+<section>
+	{% for etc in etclist | reverse %}
+		<article{% if etc.url == url %} data-current="current item"{% endif %}>
+			<h3>
+				<a href="{{ etc.url | url }}">
+					{% if etc.data.title %}
+						{{ etc.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+				{{ etc.data.body }}
+				<p>
+					{% for tag in etc.data.tags %}
+		  			{%- if tag != "etc" -%}
+		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+		  			{%- endif -%}
+					{% endfor %}
+				</p>
+			{% endif %}
+		</article>
+	{% endfor %}
+</section>

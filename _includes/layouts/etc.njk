@@ -1,0 +1,11 @@
+---
+layout: layouts/base.njk
+section: etc
+permalink: /etc/index.html
+---
+<h1>{{ title }}</h1>
+
+{{ layoutContent | safe }}
+
+{% set etclist = collections.etc %}
+{% include "components/etclist.njk" %}

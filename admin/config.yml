@@ -55,8 +55,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      # - { label: "Permalink", name: "permalink", widget: "string" }
-      # - { label: "Navigation Title", name: "navtitle", widget: "string" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "painting" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Sold?", name: "sold", widget: "boolean" }
@@ -70,10 +68,30 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      # - { label: "Permalink", name: "permalink", widget: "string" }
-      # - { label: "Navigation Title", name: "navtitle", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "hidden", default: "illustration" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "animation" }
       - { label: "Image", name: "image", widget: "image" }
 
+# Web
+  - name: "web"
+    label: "Web"
+    folder: "web"
+    create: true 
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "web" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
-
+# Etc.
+  - name: "etc"
+    label: "Etc."
+    folder: "etc"
+    create: true 
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "web" }
+      - { label: "Body", name: "body", widget: "markdown" }
