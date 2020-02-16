@@ -5,6 +5,6 @@ tags:
   - painting
 image: /static/img/four_heads.png
 sold: true
-price: 0
+price: 1200
 ---
 
