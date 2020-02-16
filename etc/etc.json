@@ -1,5 +1,5 @@
 {
   "layout": "layouts/etc.njk",
-  "permalink": "/etc/{{ name | slug }}/index.html",
+  "permalink": "/etc/{{ name }}/index.html",
   "tags":"etc"
 }

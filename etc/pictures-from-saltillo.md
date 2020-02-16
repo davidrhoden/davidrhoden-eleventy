@@ -2,6 +2,7 @@
 title: Pictures from Saltillo
 date: 2020-02-16T16:50:22.929Z
 tags: etc
+permalink: pictures-from-saltillo
 ---
 I spent a Mardi Gras going with some Loyola classmates to Saltillo, Coahuila, Mexico to work on houses. We actually ended up building a small chapel.
 

@@ -55,6 +55,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "painting" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Sold?", name: "sold", widget: "boolean" }
@@ -68,6 +69,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "animation" }
       - { label: "Image", name: "image", widget: "image" }
 
@@ -80,6 +82,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "web" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
@@ -93,5 +96,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "etc" }
       - { label: "Body", name: "body", widget: "markdown" }

@@ -5,6 +5,7 @@ tags: painting
 image: /static/img/aguilaintergalactico_sm.jpg
 sold: true
 price: 240
+permalink: aguila-intergalactico
 ---
 
 test content
