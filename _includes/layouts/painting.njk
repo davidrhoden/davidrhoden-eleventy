@@ -1,13 +1,11 @@
 ---
+layout: layouts/base.njk
 section: painting
+permalink: /painting/index.html
 ---
+<h1>{{ title }}</h1>
 
-Most of my paintings are done in sign painter's enamel on shaped plywood.
+{{ layoutContent | safe }}
 
-<ul>
-	{%- for painting in collections.painting -%}
-	<li>
-	<a href={{painting.url}}>{{painting.data.title}}<img src={{painting.data.image}} alt={{painting.data.title}} />
-	</li>
-	{%- endfor -%}
-</ul>
+{% set paintinglist = collections.painting %}
+{% include "components/paintinglist.njk" %}
