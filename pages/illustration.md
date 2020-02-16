@@ -1,13 +1,9 @@
 ---
-
-title: 'Illustration Collection'
+title: {{ illustration.name  }}
 date: 2020-02-13T15:46:31.523Z
-permalink: 'illustrations/{{ illustration.name | slug }}/'
-navtitle: Illustration Collection
+permalink: 'illustrations/'
+navtitle: Illustration
 layout: layouts/page.njk
-tags:
-  - nav
-
 ---
 
-{{ illustration.name }} is {{ illustration.age }} years old
+{{ illustration.name }} is {{ illustration.image }} years old

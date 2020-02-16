@@ -6,7 +6,6 @@ navtitle: About
 tags:
   - nav
 ---
-# David Rhoden: About Me
 
 David Rhoden is a painter, animator, and illustrator, currently based in New Orleans. And I'm David Rhoden.
 
