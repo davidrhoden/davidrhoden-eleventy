@@ -36,7 +36,7 @@ collections:
  # Illustration
   - name: "illustrations"
     label: "Illustration"
-    folder: "illustrations"
+    folder: "illustration"
     create: true 
     slug: "{{slug}}"
     fields:
@@ -49,7 +49,7 @@ collections:
 
   - name: "paintings"
     label: "Painting"
-    folder: "paintings"
+    folder: "painting"
     create: true # Change to true to allow editors to create new pages
     slug: "{{slug}}"
     fields:
@@ -63,7 +63,7 @@ collections:
  # Animation
   - name: "animations"
     label: "Animation"
-    folder: "animations"
+    folder: "animation"
     create: true 
     slug: "{{slug}}"
     fields:
