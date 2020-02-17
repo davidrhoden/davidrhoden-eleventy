@@ -42,8 +42,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
-      - { label: "Navigation Title", name: "navtitle", widget: "string" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "illustration" }
       - { label: "Image", name: "image", widget: "image" }
 
@@ -55,7 +53,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "painting" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Sold?", name: "sold", widget: "boolean" }
@@ -63,15 +60,15 @@ collections:
  # Animation
   - name: "animations"
     label: "Animation"
-    folder: "animation"
+    folder: "animations"
     create: true 
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "animation" }
       - { label: "Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
 # Web
   - name: "web"
