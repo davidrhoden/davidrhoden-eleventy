@@ -71,9 +71,9 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
 # Web
-  - name: "web"
-    label: "Web"
-    folder: "web"
+  - name: "webdev"
+    label: "Web Development"
+    folder: "webdev"
     create: true 
     slug: "{{slug}}"
     fields:
