@@ -1,5 +1,5 @@
 ---
-title: Luke Spurr Allen
+title: 'Luke Spurr Allen'
 date: 2020-02-16T14:48:49.819Z
 tags: webdev
 image: /static/img/lukespurrallen.jpg

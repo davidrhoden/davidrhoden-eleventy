@@ -1,3 +1,5 @@
 {
-  "layout": "layouts/webdev_entry.njk"
+  "layout": "layouts/webdev.njk",
+  "tags":["webdev"],
+  "bodyClass": "webdev"
 }
