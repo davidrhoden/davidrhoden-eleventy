@@ -1,6 +1,6 @@
 ---
-title: 404
+title: error_404
 layout: layouts/page.njk
-permalink: /404.html
+permalink: /error_404.html
 ---
 Uh oh, the resource you requested isn't here. Sorry.
