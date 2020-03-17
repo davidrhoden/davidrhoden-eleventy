@@ -1,8 +1,0 @@
----
-title: Eatucator
-date: 2020-02-18T14:29:14.627Z
-tags: webdev
-image: /static/img/eatucator.jpg
-permalink: eatucator.html
----
- A coupon site for farmer's markets.
