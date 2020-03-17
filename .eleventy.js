@@ -52,19 +52,19 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  eleventyConfig.addCollection("webdev", function(collection) {
-  const coll = collection.getFilteredByTag("webdev");
+  // eleventyConfig.addCollection("webdev", function(collection) {
+  // const coll = collection.getFilteredByTag("webdev");
 
-  for(let i = 0; i < coll.length ; i++) {
-    const prevPost = coll[i-1];
-    const nextPost = coll[i + 1];
+//   for(let i = 0; i < coll.length ; i++) {
+//     const prevPost = coll[i-1];
+//     const nextPost = coll[i + 1];
 
-    coll[i].data["prevPost"] = prevPost;
-    coll[i].data["nextPost"] = nextPost;
-  }
+//     coll[i].data["prevPost"] = prevPost;
+//     coll[i].data["nextPost"] = nextPost;
+//   }
 
-  return coll;
-});
+//   return coll;
+// });
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("favicon.ico");
