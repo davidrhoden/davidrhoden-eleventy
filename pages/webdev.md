@@ -1,5 +1,4 @@
 ---
-layout: layouts/webdev.njk
 title: Web Development
 tags:
   - nav
