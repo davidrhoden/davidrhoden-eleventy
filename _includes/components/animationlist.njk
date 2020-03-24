@@ -1,26 +1,30 @@
-<section>
-	{% for animation in animationlist | reverse %}
-		<article{% if animation.url == url %} data-current="current item"{% endif %}>
-			<h3>
-				<a href="{{ animation.url | url }}">
-					{% if animation.data.title %}
-						{{ animation.data.title }}
-					{% else %}
-						Untitled
-					{% endif %}
-				</a>
-			</h3>
-			<img src="{{ animation.data.image }}" alt="{{ animation.data.title }}: animation by David Rhoden" />
-			{% if animation.data.tags %}
-				<p>
-					{% for tag in animation.data.tags %}
-		  			{%- if tag != "animation" -%}
-		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
-		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-		  			{%- endif -%}
-					{% endfor %}
-				</p>
-			{% endif %}
-		</article>
-	{% endfor %}
+<section class="animations">
+    {% for animation in animationlist | reverse %}
+        <article{% if animation.url == url %} data-current="current item"{% endif %}>
+            <div class="text">
+                <h3>
+                    <a href="{{ animation.url | url }}">
+                        {% if animation.data.title %}
+                            {{ animation.data.title }}
+                        {% else %}
+                            Untitled
+                        {% endif %}
+                    </a>
+                </h3>
+            </div>
+            <div class="image">
+                <img src="{{ animation.data.image }}" alt="{{ animation.data.title }}: animation by David Rhoden" />
+                {% if animation.data.tags %}
+                    <p>
+                        {% for tag in animation.data.tags %}
+                        {%- if tag != "animation" -%}
+                            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                        {%- endif -%}
+                        {% endfor %}
+                    </p>
+                {% endif %}
+            </div>
+        </article>
+    {% endfor %}
 </section>
