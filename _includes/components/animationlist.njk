@@ -1,3 +1,16 @@
+<div class="next">NEXT ANIMATION</div>
+{%- for item in pagination.items %}
+    <div style="background-color: red; margin: 10px; width: 100px;">{{ item.text }}</div>
+{% endfor -%}
+
+{% if pagination.href.previous %}
+    <span><a href="{{ pagination.href.previous }}">&lt;</a></span>
+{% endif %}
+
+{% if pagination.href.next %}
+    <span><a href="{{ pagination.href.next }}">&gt;</a></span>
+{% endif %}
+<section id="results"></section>
 <section class="animations">
     {% for animation in animationlist | reverse %}
         <article{% if animation.url == url %} data-current="current item"{% endif %}>
