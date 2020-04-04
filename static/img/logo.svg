@@ -1,10 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 376 376" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <rect x="0" y="0" width="375.467" height="375.467" style="fill:none;"/>
-    <g transform="matrix(1.02782,0,0,1.02782,-24.239,-11.7164)">
-        <g transform="matrix(500,0,0,500,10.8807,358.182)">
-            <path d="M0.391,0L0.391,-0.074L0.318,-0.074C0.287,-0.074 0.277,-0.084 0.277,-0.11L0.277,-0.311L0.336,-0.311C0.453,-0.311 0.489,-0.276 0.489,-0.116C0.489,-0.034 0.519,0.02 0.618,0.02C0.701,0.02 0.756,-0.026 0.756,-0.154L0.756,-0.185L0.69,-0.185L0.69,-0.154C0.69,-0.095 0.68,-0.074 0.656,-0.074C0.639,-0.074 0.615,-0.09 0.615,-0.196C0.615,-0.274 0.591,-0.32 0.486,-0.333L0.486,-0.335C0.587,-0.344 0.674,-0.394 0.674,-0.497C0.674,-0.606 0.606,-0.663 0.461,-0.663L0.026,-0.663L0.026,-0.589L0.096,-0.589C0.127,-0.589 0.137,-0.579 0.137,-0.553L0.137,-0.11C0.137,-0.084 0.127,-0.074 0.096,-0.074L0.026,-0.074L0.026,0L0.391,0ZM0.277,-0.591L0.405,-0.591C0.493,-0.591 0.534,-0.556 0.534,-0.494C0.534,-0.42 0.503,-0.385 0.395,-0.385L0.277,-0.385L0.277,-0.591Z" style="fill:rgb(255,0,0);fill-rule:nonzero;"/>
-        </g>
-    </g>
-</svg>
+version https://git-lfs.github.com/spec/v1
+oid sha256:812512cf7b8d6a55e8a75170d4bddb85f05fc4fbd366570be8ab82e7ef22928c
+size 1484
