@@ -1,6 +1,9 @@
 ---
 layout: layouts/etc.njk
 title: Etc.
+eleventyNavigation:
+  key: Etc.
+  order: 8
 tags:
   - nav
  

@@ -3,6 +3,9 @@ title: This is davidrhoden.com.
 date: 2020-02-10T12:00:00.000Z
 permalink: /
 navtitle: Home
+eleventyNavigation:
+  key: Home
+  order: 0
 tags:
   - nav
 ---
