@@ -1,7 +1,11 @@
 ---
 layout: layouts/base.njk
 section: illustration
-permalink: /illustration/index.html
+pagination:
+  data: collections.illustration
+  size: 1
+  reverse: true
+permalink: /timeline/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}/{% endif %}index.html
 ---
 <h1>{{ title }}</h1>
 
