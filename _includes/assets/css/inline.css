@@ -224,6 +224,15 @@ footer small {
 	text-transform: uppercase;
 }
 
+
+/******* ABOUT PAGE *******/
+
+.about img {
+	width: 100%;
+}
+
+/******* END ABOUT PAGE *******/
+
 @media screen and (min-width:768px) {
 	:root {
 		font-size: 1.1rem;
