@@ -12,7 +12,7 @@ section: post
   </p>
 
   {{ layoutContent | safe }}
-
+  {{ post.data.image }}
   {% if tags %}
     <p>
     {% for tag in tags %}

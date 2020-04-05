@@ -5,7 +5,7 @@ backend:
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow
 
-media_folder: "static/img" # Media files will be stored in the repo under images/uploads
+media_folder: "static/img" 
 
 collections:
   # Our blog posts
@@ -20,11 +20,12 @@ collections:
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
   # Our pages e.g. About
   - name: "pages"
     label: "Page"
     folder: "pages"
-    create: true # Change to true to allow editors to create new pages
+    create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -48,7 +49,7 @@ collections:
   - name: "paintings"
     label: "Painting"
     folder: "painting"
-    create: true # Change to true to allow editors to create new pages
+    create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -94,3 +95,4 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "etc" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
