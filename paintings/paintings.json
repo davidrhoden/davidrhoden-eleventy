@@ -1,6 +1,6 @@
 {
   "layout": "layouts/painting.njk",
-  "permalink": "/painting/{{ name }}/index.html",
+  "permalink": "/paintings/{{ name }}/index.html",
   "tags": "painting",
   "bodyClass": "painting"
 }
