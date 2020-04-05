@@ -10,5 +10,4 @@ eleventyNavigation:
 tags:
   - nav
 ---
-
-![frazzled looking guy saying aah, a drawing by David Rhoden](/static/img/aah-guy.jpg "frazzled looking guy saying aah, a drawing by David Rhoden")
+![frazzled looking guy saying aah, a drawing by David Rhoden](/static/img/aah-guy.jpg)
