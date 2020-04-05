@@ -9,7 +9,7 @@ media_folder: "static/img"
 
 collections:
   # Our blog posts
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+  - name: "timeline" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -48,7 +48,7 @@ collections:
 
   - name: "painting"
     label: "Painting"
-    folder: "painting"
+    folder: "paintings"
     create: true
     slug: "{{slug}}"
     fields:

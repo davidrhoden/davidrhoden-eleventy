@@ -55,11 +55,11 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-    eleventyConfig.addCollection("painting", function(collection) {
-    return collection.getAllSorted().filter(function(item) {
-      return item.inputPath.match(/^\.\/painting\//) !== null;
-    });
-  });
+  //   eleventyConfig.addCollection("painting", function(collection) {
+  //   return collection.getAllSorted().filter(function(item) {
+  //     return item.inputPath.match(/^\.\/painting\//) !== null;
+  //   });
+  // });
 
   eleventyConfig.addCollection("animation", function(collection) {
     const coll = collection.getFilteredByTag("animation");
