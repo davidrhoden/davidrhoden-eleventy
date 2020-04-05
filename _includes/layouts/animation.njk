@@ -9,3 +9,9 @@ permalink: /animation/index.html
 
 {% set animationlist = collections.animation %}
 {% include "components/animationlist.njk" %}
+
+<nav>
+  {{ prevPost.url }} {{ prevPost.data.title }}
+  <a href="{{ '/blog/' | url }}">← Blog index</a>
+  {{ nextPost.url }} {{ nextPost.data.title }}
+</nav>

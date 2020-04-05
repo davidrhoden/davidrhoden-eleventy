@@ -251,6 +251,10 @@ footer small {
 		justify-content: space-around; 
 	}
 
+	.summary, .image {
+		flex-basis: 50%;
+	}
+
 	/******* ANIMATIONS *******/
 	
 	.animations article {

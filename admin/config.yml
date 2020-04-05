@@ -46,7 +46,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "hidden", default: "illustration" }
       - { label: "Image", name: "image", widget: "image" }
 
-  - name: "paintings"
+  - name: "painting"
     label: "Painting"
     folder: "painting"
     create: true

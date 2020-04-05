@@ -2,10 +2,10 @@ const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
-// const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
-  // eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
@@ -48,25 +48,32 @@ module.exports = function(eleventyConfig) {
   });
 
   // only content in the `posts/` directory
+ 
   eleventyConfig.addCollection("posts", function(collection) {
     return collection.getAllSorted().filter(function(item) {
       return item.inputPath.match(/^\.\/posts\//) !== null;
     });
   });
 
-  // eleventyConfig.addCollection("webdev", function(collection) {
-  // const coll = collection.getFilteredByTag("webdev");
+    eleventyConfig.addCollection("painting", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
+      return item.inputPath.match(/^\.\/painting\//) !== null;
+    });
+  });
 
-//   for(let i = 0; i < coll.length ; i++) {
-//     const prevPost = coll[i-1];
-//     const nextPost = coll[i + 1];
+  eleventyConfig.addCollection("animation", function(collection) {
+    const coll = collection.getFilteredByTag("animation");
 
-//     coll[i].data["prevPost"] = prevPost;
-//     coll[i].data["nextPost"] = nextPost;
-//   }
+    for(let i = 0; i < coll.length ; i++) {
+      const prevPost = coll[i-1];
+      const nextPost = coll[i + 1];
 
-//   return coll;
-// });
+      coll[i].data["prevPost"] = prevPost;
+      coll[i].data["nextPost"] = nextPost;
+    }
+
+    return coll;
+  });
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("favicon.ico");
