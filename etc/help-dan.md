@@ -2,13 +2,15 @@
 title: Help Dan!
 date: 2020-02-16T15:21:20.473Z
 tags: etc
-permalink: help-dan
+permalink: help-dan.html
+image: Image06.jpg
+
 ---
 Help DAN find a home! Look how homeless he looks! Can't you just hear him muttering unintelligibly? Won't you help him find a home? Here's how YOU can help: Take this picture of Dan and paste it into situations where he might feel at home!
 
 Here's a couple to give you an idea:\
-![group.jpg](https://davidrhoden.com/assets/images/danpics/group.jpg)
-![Image06.jpg](https://davidrhoden.com/assets/images/danpics/Image06.jpg)
+![group.jpg](/static/img/group.jpg)
+![Image06.jpg](/static/img/Image06.jpg)
 
 Don't those look like nice places to be?
 

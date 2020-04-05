@@ -2,8 +2,9 @@
 title: Pictures from Saltillo
 date: 2020-02-16T16:50:22.929Z
 tags: etc
-permalink: pictures-from-saltillo
+permalink: pictures-from-saltillo.html
 ---
+
 I spent a Mardi Gras going with some Loyola classmates to Saltillo, Coahuila, Mexico to work on houses. We actually ended up building a small chapel.
 
 We drove from New Orleans to Saltillo, Coahuila, crossing the border at Laredo. Saltillo is the "beneficiary" of Monterrey's increasing prosperity: as jobs move over the border into Monterrey, wages there rise, and companies look further south for cheap labor. (NOTE: All political stuff is either hearsay, or it's my creation, and may well be bullshit. I just know for a fact that there are poor people there.) Saltillo is really like Birmingham. It's gray and industrial, about half a million people live there, it has a lot of car plants. One difference is its elevation is over 5,700 feet, higher than Denver I think, and its slums are creeping up to the feet of the highest peaks of the rocky, uninviting Sierra Madres.
