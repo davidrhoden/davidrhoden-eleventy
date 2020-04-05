@@ -1,9 +1,9 @@
 ---
 title: Help Dan!
-date: 2020-02-16T15:21:20.473Z
+date: 2000-00-00T12:00:00.473Z
 tags: etc
 permalink: help-dan.html
-image: Image06.jpg
+image: helpdan-klingon-jail.jpg
 
 ---
 Help DAN find a home! Look how homeless he looks! Can't you just hear him muttering unintelligibly? Won't you help him find a home? Here's how YOU can help: Take this picture of Dan and paste it into situations where he might feel at home!
