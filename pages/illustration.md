@@ -11,4 +11,3 @@ tags:
   - nav
 ---
 
-test illustration content
