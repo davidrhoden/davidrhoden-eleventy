@@ -4,6 +4,9 @@ title: Work with me
 date: 2020-02-01T00:00:00.000Z
 permalink: /contact/index.html
 navtitle: Work with me
+eleventyNavigation:
+  key: Work with me
+  order: 9
 tags:
   - nav
 ---

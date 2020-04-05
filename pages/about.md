@@ -5,7 +5,7 @@ permalink: /about/index.html
 navtitle: About
 eleventyNavigation:
   key: About
-  order: 1
+  order: 9
 tags:
   - nav
 ---

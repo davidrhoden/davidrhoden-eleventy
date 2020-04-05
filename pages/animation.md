@@ -5,7 +5,7 @@ navtitle: Animation
 date: 2020-02-16
 permalink: /animation/index.html
 eleventyNavigation:
-  key: Home
+  key: Animation
   order: 8
 <!-- pagination:
   data: collections.animations
