@@ -1,7 +1,7 @@
 ---
 title: Aah
 date: 2020-01-31T06:00:00.000Z
-image: aah-guy.jpg
+image: /static/img/aah-guy.jpg
 summary: >-
   Derp derp derp derp.
 tags: drawing

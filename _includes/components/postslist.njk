@@ -1,9 +1,7 @@
 <section>
     {% for post in postslist | reverse %}
         <article{% if post.url == url %} data-current="current item"{% endif %}>
-
             <section class="flex space-around align-items-center">
-
                 <section class="summary">
                     <h3>
                         <a href="{{ post.url | url }}">

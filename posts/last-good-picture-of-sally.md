@@ -1,7 +1,7 @@
 ---
 title: The last good picture of Sally.
 date: 2020-01-06T06:00:00.000Z
-image: last-good-picture-of-sally.jpg
+image: /static/img/last-good-picture-of-sally.jpg
 summary: >-
   I have more recent pictures but this is the one I like.
 tags: cats

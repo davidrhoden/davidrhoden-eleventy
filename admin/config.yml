@@ -96,3 +96,12 @@ collections:
       - { label: "Tags", name: "tags", widget: "hidden", default: "etc" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Image", name: "image", widget: "image" }
+# Possums
+  - name: "possums"
+    label: "Possums"
+    folder: "possum"
+    create: true 
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { age: "Age", name: "age", widget: "string" }
